@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogues>
+	<messages>
+		<message id="1">
+			<sourceNPC>Woman</sourceNPC>
+			<text>Heey i'm sorry hit your car</text>
+      <options>
+			  <option targetnode="2">Its oke i'm sure we can work this out.</option>
+			  <option targetnode="4">You know you are going to pay for this right.</option>
+			  <option targetnode="6">Why did you do this are you stupid or something</option>
+      </options>
+      <targetnodes>
+        <targetnode>2</targetnode>
+        <targetnode>4</targetnode>
+        <targetnode>6</targetnode>
+      </targetnodes>
+		</message>
+		<message id="2">
+			<sourceNPC>Woman</sourceNPC>
+			<text>Yea i'm really sorry I was not paying attention.</text>
+      <options>
+        <option targetnode="3">Thans for not driving away after the accident.</option>
+        <option targetnode="3">You should be paying attention next time.</option>
+        <option targetnode="6">I thought it was obvious that you should pay attention while driving</option>
+      </options>
+      <targetnodes>
+        <targetnode>3</targetnode>
+        <targetnode>3</targetnode>
+        <targetnode>6</targetnode>
+      </targetnodes>
+		</message>
+		<message id="3">
+			<sourceNPC>Woman</sourceNPC>
+			<text>Lets call the insurence agency.</text>
+      <options>
+        <option targetnode="5">Good idea.</option>
+        <option targetnode="6">Lets do this quickly</option>
+      </options>
+      <targetnodes>
+        <targetnode>5</targetnode>
+        <targetnode>6</targetnode>
+      </targetnodes>
+		</message>
+		<message id="4">
+			<sourceNPC>Woman</sourceNPC>
+			<text>Yea Yea lets resolve this quickly</text>
+      <options>
+        <option targetnode="6">Good idea.</option>
+      </options>
+      <targetnodes>
+        <targetnode>6</targetnode>
+      </targetnodes>
+		</message>
+    <message id="5">
+      <sourceNPC>Woman</sourceNPC>
+      <text>Its resolved thank you for being so patient.</text>
+      <options>
+        <option targetnode="6">No problem but pay attention next time ;)</option>
+      </options>
+      <targetnodes>
+        <targetnode>6</targetnode>
+      </targetnodes>
+    </message>
+		<message id="6">
+			<sourceNPC>Woman</sourceNPC>
+			<text>Byee</text>
+      <options>
+        <option targetnode="0">Farewell</option>
+      </options>
+      <targetnodes>
+        <targetnode>0</targetnode>
+      </targetnodes>
+		</message>
+	</messages>
+</dialogues>
